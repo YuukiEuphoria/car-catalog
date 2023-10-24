@@ -1,0 +1,22 @@
+.form {
+  margin: 10px auto 30px;
+}
+
+.form input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  transition: border-color 0.2s ease;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+}
+
+.form input:focus {
+  border-color: gray;
+}
+
+.cardContainer {
+  display: flex; /* Это делает карточки горизонтальными */
+  flex-wrap: wrap; /* Разрешаем перенос карточек на следующую строку при нехватке места */
+  justify-content: space-between; /* Равномерное распределение карточек по горизонтали */
+}

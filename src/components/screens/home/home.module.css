@@ -1,0 +1,15 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Равномерное распределение карточек по горизонтали */
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    justify-content: center; /* Центрирование карточек на мобильной версии */
+  }
+  .item {
+    width: 100%; /* Занимать всю ширину на мобильной версии */
+  }
+}
